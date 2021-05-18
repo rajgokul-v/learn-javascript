@@ -1,32 +1,37 @@
-//
-// function hello(firstName, lastName) {
-// 	return 'hello' + ' ' + firstName + lastName
-// }
-// console.log(hello('gokul', 'raj'))
+// function declaration
+/* function hello(firstName, lastName) {
+ 	return 'hello' + ' ' + firstName + lastName
+ }
+ console.log(hello('gokul', 'raj')*/
 
-// function hello(firstName, lastName) {
-// 	if (typeof firstName === 'undefined') {
-// 		firstName = 'gokul'
-// 	}
-// 	if (typeof lastName === 'undefined') {
-// 		lastName = 'raj'
-// 	}
+//  get function on if statement
 
-// 	return 'hello' + ' ' + firstName + lastName
-// }
-// console.log(hello())
+/*function hello(firstName, lastName) {
+ 	if (typeof firstName === 'undefined') {
+ 		firstName = 'gokul'
+ 	}
+ 	if (typeof lastName === 'undefined') {
+ 		lastName = 'raj'
+ 	
+ 	return 'hello' + ' ' + firstName + lastName
+ }
+ console.log(hello()*/
 
-// const square = function (x) {
-// 	return x * x
-// }
-// console.log(square(9))
+//  get value of console
 
-// const square = function (x = 3) {
-// 	return x * x
-// }
-// console.log(square())
-// IMMIDIATLEY INVOKABLE FUNCTION EXPRESSIONS - IIFES
+/*const square = function (x) {
+	return x * x
+}
+console.log(square(9))*/
 
-function(){
-  console.log('Hello world')
-}()
+// get value of function
+/*const square = function (x = 3) {
+	return x * x
+}
+console.log(square())*/
+
+//  IMMIDIATLEY INVOKABLE FUNCTION EXPRESSIONS - IIFE
+
+;(function () {
+	console.log('hello')
+})()
